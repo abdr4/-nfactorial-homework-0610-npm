@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body onload="getValue()">
+    <div id="main">
+        <header>
+            <h1>Mad Libs</h1>
+            <h1 id="buttons">
+                <button onclick="setWhiteTheme()">White</button>
+                <button onclick="setDarkTheme()">Black</button>
+                <button id="cookie" onclick="addCookie()">Cookie</button>
+            </h1>
+        </header>
+        
+        <div class="container">
+    
+            <div id = "mad-libs">
+                <div class="input">1st Character:<input type="text" id="name"></div>
+                <div class="input">2nd Character:<input type="text" id="name2"></div>
+                <div class="input">Verb:<input type="text" id="verb"></div>
+                <div class="input">Adverb:<input type="text" id="adverb"></div>
+                <button id="button-story">Generate a story!</button>
+            </div>
+        </div>
+        <div class="output">
+            
+        </div>
+    
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

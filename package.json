@@ -1,0 +1,12 @@
+{
+  "name": "nfactorial-homework-0610-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "addAndPush": "git init\n git add . \n git commit -m 'commit' \n git remote add origin https://github.com/abdr4/-nfactorial-homework-0610-npm.git \n git push origin master"
+  },
+  "author": "",
+  "license": "ISC"
+}
